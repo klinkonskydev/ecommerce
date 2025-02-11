@@ -30,7 +30,12 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    // paths
+    "baseUrl": ".",
+    "paths": {
+      "infra/*": ["./infra/*"]
+    }
   },
   "include": [
     "next-env.d.ts",
